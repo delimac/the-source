@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+body {
+  background-color: #000000;
+  color: #eee;
+  font-family: 'Space Mono', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 150px 0 100px 100px;
+  max-width: 1200px;
+	}
+
+h2 {
+  font-size: 24px;
+  margin: 0 0 50px 0;
+	}
+
+p {
+  display: block;
+  max-width: 370px;
+	}
+
+a {
+  color: #666;
+  padding-bottom: 2px;
+  text-decoration: none;
+  transition: all 0.25s ease;
+	}
+
+a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+	}
+
+header {
+  margin: 0 0 150px 0;
+	}
+
+section {
+  margin: 0 0 90px 0;
+	}
+
+.img-label {
+  background-color: #fff;
+  color: #000;
+  margin: 50px 0 0 0;
+  padding: 10px 20px 10px 20px;
+	}
+
+.label-lamp {
+  max-width: 630px;
+	}
+
+.label-daychair {
+  max-width: 1100px;
+	}
+
+.about p {
+  margin: 50px 0 0 0;
+  max-width: 450px;
+	}
+
+footer {
+  background-color: #1A1A1A;
+  padding: 40px;
+	}
+
+footer .social-links {
+  margin: 40px 0 0 0;
+	}
+
+.social-links a {
+  margin-right: 50px;
+	}
+
+@media (max-width: 768px) {
+  
+  body {
+    margin: 30px 30px 0 30px;
+  	}
+  
+  header {
+    margin: 0 0 30px 0;
+  	}
+  
+  header img {
+    width: 70%;
+  	}
+  
+  section {
+    margin: 0 0 30px 0;
+  	}
+  
+  .img-label {
+    margin: 30px 0 0 0;
+  	}
+  
+  footer {
+    margin: 30px -30px 0 -30px;
+  	}
+  
+  .social-links a {
+    display: block;
+    margin: 15px 0 15px 0;
+    width: 100%;
+  	}
+  
+  a:hover {
+    border: none;
+  	}
+  
+	}
